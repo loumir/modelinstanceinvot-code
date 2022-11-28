@@ -25,6 +25,8 @@
   </INSTANCE>
 
   <!-- Zero Point -->
+  <!-- one single type for the zero point inside one photCal object to select as Pogson, Asinh or Linear  -->
+
   <INSTANCE dmtype="photdm:PogsonZeroPoint" dmrole="photdm:PhotCal.zeroPoint">
     <ATTRIBUTE dmrole="photdm:ZeroPoint.type" dmtype="ivoa:string" value="$zeroPointType" />
     <ATTRIBUTE dmrole="photdm:ZeroPoint.referenceMagnitudeValue" dmtype="ivoa:real"
